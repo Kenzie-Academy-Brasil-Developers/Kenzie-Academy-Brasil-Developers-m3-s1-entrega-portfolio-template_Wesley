@@ -1,0 +1,21 @@
+.container__about {
+    gap: 2.375rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__about>p {
+    width: 615px;
+}
+
+@media (max-width:700px) {
+    .container__about {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container__about>p {
+        width: 100%;
+        text-align: justify;
+    }
+}
