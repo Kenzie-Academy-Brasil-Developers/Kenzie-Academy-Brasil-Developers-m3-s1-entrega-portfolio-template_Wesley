@@ -1,4 +1,6 @@
 import Photo from '../../../assets/banner-img.png'
+import { user } from '../../../data/user'
+import { username } from '../../../data/user'
 
 import style from './style.module.css'
 
@@ -7,7 +9,7 @@ const Main = () => {
         <div className='container'>
             <section className={style.container__main}>
                 <div>
-                    <h1 className={style.title_name} >WESLEY</h1>
+                    <h1 className={style.title_name} >{`${username}`}</h1>
                     <h2 className={style.title2}>Bem vindo ao meu portfólio</h2>
                     <p>Uma frase interessante sobre mim</p>
                     <button type="button">Saiba mais</button>
